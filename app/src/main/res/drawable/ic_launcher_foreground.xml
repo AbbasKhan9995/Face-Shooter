@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer bubble rim / glow shadow -->
+    <path
+        android:pathData="M54,54m-27,0a27,27 0,1 1,54 0a27,27 0,1 1,-54 0"
+        android:fillColor="#33000000" />
+
+    <!-- Main bubble glossy base -->
+    <path android:pathData="M54,54m-26,0a26,26 0,1 1,52 0a26,26 0,1 1,-52 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="36"
+                android:startY="34"
+                android:endX="70"
+                android:endY="74"
+                android:type="linear">
+                <item android:color="#FF6584" android:offset="0.0" />
+                <item android:color="#E02E65" android:offset="0.5" />
+                <item android:color="#9E0038" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner face avatar circle -->
+    <path
+        android:pathData="M54,54m-19,0a19,19 0,1 1,38 0a19,19 0,1 1,-38 0"
+        android:fillColor="#FFF0F5" />
+
+    <!-- Happy Eyes -->
+    <path
+        android:pathData="M46.5,50m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0"
+        android:fillColor="#2D3748" />
+    <path
+        android:pathData="M61.5,50m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0"
+        android:fillColor="#2D3748" />
+    <path
+        android:pathData="M45.5,49m-0.9,0a0.9,0.9 0,1 1,1.8 0a0.9,0.9 0,1 1,-1.8 0"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M60.5,49m-0.9,0a0.9,0.9 0,1 1,1.8 0a0.9,0.9 0,1 1,-1.8 0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Happy Smile -->
+    <path
+        android:pathData="M47,56 C49,61 59,61 61,56"
+        android:strokeColor="#2D3748"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round" />
+
+    <!-- Rosy Cheeks -->
+    <path
+        android:pathData="M42,54m-2.5,0a2.5,1.5 0,1 1,5 0a2.5,1.5 0,1 1,-5 0"
+        android:fillColor="#FFA8B8" />
+    <path
+        android:pathData="M66,54m-2.5,0a2.5,1.5 0,1 1,5 0a2.5,1.5 0,1 1,-5 0"
+        android:fillColor="#FFA8B8" />
+
+    <!-- 3D Specular Highlight (top-left oval) -->
+    <path
+        android:pathData="M44,38 C48,34 52,34 55,36 C52,38 48,42 43,45 C41,43 42,40 44,38 Z"
+        android:fillColor="#E6FFFFFF" />
+    <!-- Secondary small gloss dot -->
+    <path
+        android:pathData="M40,46m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0"
+        android:fillColor="#B3FFFFFF" />
+
+    <!-- Mini companion bubble on top right -->
+    <path android:pathData="M76,36m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="70"
+                android:startY="30"
+                android:endX="82"
+                android:endY="42"
+                android:type="linear">
+                <item android:color="#60A5FA" android:offset="0.0" />
+                <item android:color="#2563EB" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M73,32 C74.5,30.5 76,30.5 77,31.5 C76,32.5 74.5,34 73,34 Z"
+        android:fillColor="#E6FFFFFF" />
+
+    <!-- Mini companion bubble on bottom left -->
+    <path android:pathData="M32,72m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="27"
+                android:startY="67"
+                android:endX="37"
+                android:endY="77"
+                android:type="linear">
+                <item android:color="#4ADE80" android:offset="0.0" />
+                <item android:color="#16A34A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M29,69 C30,68 31,68 32,68.5 C31,69.5 30,70.5 29,70.5 Z"
+        android:fillColor="#E6FFFFFF" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Face Shooter",
+  "description": "A 3D glossy bubble-shooter game where you shoot and pop bubbles featuring custom photos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
